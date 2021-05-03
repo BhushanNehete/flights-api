@@ -33,8 +33,8 @@
 				<cloudHubDeployment>
 			     		 <uri>https://anypoint.mulesoft.com</uri>
 			     		 <muleVersion>4.3.0</muleVersion>
-			     		 <username>BhushanNN</username>
-			     		 <password>Bhushann@123</password>
+			     		 <username>${anypoint.username}</username>
+			     		 <password>${anypoint.password}</password>
 			     		 <applicationName>flights-api-bn</applicationName>
 			     		 <environment>Sandbox</environment>
 			     		 <workers>1</workers>
